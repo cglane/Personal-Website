@@ -1,0 +1,25 @@
+{
+  "name": "personalWebsite",
+  "version": "1.0.0",
+  "description": "ES2015 personalWebsite",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charles Lane",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "html-loader": "^0.4.3",
+    "webpack": "^1.13.1"
+  }
+}
